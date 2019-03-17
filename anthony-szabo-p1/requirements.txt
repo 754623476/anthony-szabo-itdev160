@@ -1,0 +1,9 @@
+Project Description: Cups and Squirrels
+
+Feature list: Cups prices Squirrel locations
+
+List of technical tasks: What do cups do? 3? What do squirrels do? 3?
+
+Cup: 1. liquid storage 2. art 3. collectable 
+
+Squirrel: 1. collect nuts 2. hibernate 3. climb trees
