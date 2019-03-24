@@ -1,0 +1,11 @@
+<img src="../activity-3/3ds.jpg" width="400" height="300" alt="">
+
+
+[Constructor(optional CSSStyleSheetInit options
+)]
+partial interface CSSStyleSheet {
+  Promise<CSSStyleSheet> replace(USVString text
+);
+  void replaceSync(USVString text
+);
+};
