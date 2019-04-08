@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <center>
+        <img src="images.jpg">
+        <header></header>
+        <h1></h1>
+        <main>Chat App!
+        Type "blue" "red" or "green"</main>
+        <!-- id=”message-container” and class=”messages” <section></section>
+        <section></section>
+        id=”message-input” <input type="text"> -->
+        <input id="myInput"/>
+        <!--id=”send-button”--> <button onclick= booped() >Submit</button>
+        <!--id=”reply-button” <button name="button">Click me</button>
+        <script src="script.js"></script>
+        <head> <link rel="stylesheet" type="text/css" href="theme.css"></head> 
+        var cars = ["Saab", "Volvo", "BMW"];
+        <div id="demo" data-stuff='[&#34;some&#34;, &#34;string&#34;, &#34;here&#34;]'></div>
+        Person(first, last, age, eye) {this.firstName = first;this.lastName = last;this.age = age;this.eyeColor = eye;}
+        window.onmessage = function(event) {document.getElementById("show").innerHTML ="Message Received: " + event.data+ " from: " + event.origin;};
+        var fruits = document.getElementById("myInput").value; -->
+        <p id="reply">...</p>
+        <script>
+        function booped() {    
+            var boop = document.getElementById("myInput").value
+            switch(boop) {
+              case "blue":
+                text = "The sky is blue!";
+                break;
+              case "red":
+                text = "The tomato is red";
+                break;
+              case "green":
+                text = "The grass is green";
+                break;
+              default:
+                text = "Please try again";
+            }
+            document.getElementById("reply").innerHTML = text
+            }
+        </script>
+    </center>
+    <!-- <div class="alert">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+      This is an alert box.
+    </div> --> 
+    <!-- window.onmessage = function(event) {
+        document.getElementById("show").innerHTML =
+                "Message Received: " + event.data
+              + " from: " + event.origin;
+    };
+    <button is="mega-button">
+    <button is="mega-button">
+    <script type = "text/javascript">
+      $(init);
+      function init(){
+      $("#heading").load("head.html");
+      $("#menu").load("menu.html");
+      $("#content1").load("story1.html");
+      $("#content2").load("story2.html");
+      $("#footer").load("footer.html");
+      };
+     </script>
+    document.getElementById('send-button').onclick = addMessageHandler;
+    In styles.css
+    <script>
+        function printHelloWorld() {
+        window.webkit.messageHandlers.test.postMessage("Hello, world!");
+      }
+      window.onload = printHelloWorld;
+
+    </script>
+    <img src="pic_trulli.jpg" alt="Italian Trulli"> -->
+</html>
